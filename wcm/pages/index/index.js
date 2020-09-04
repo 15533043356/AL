@@ -6,9 +6,6 @@ require(["jquery","inbizsdk"],function($,inbizsdk){
 	}
 	
 	btn.afterEvent = function(){
-
-		alert('测试弹出消息');
-
 	 //首页按钮点击事件
 	  $(".home-leftBtn").click(function(){
 		  var openName = $(this).html();
